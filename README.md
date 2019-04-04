@@ -75,7 +75,7 @@ type IConfig = {
   // 用户id
   uid?: () => string
   // 上报服务器的请求URL
-  eventUrl?: string
+  eventUrl: string
   // 是否启用调试模式 (默认值：false)
   debug?: boolean
   // 上报数据实现形式  (默认值：post)
@@ -91,7 +91,7 @@ type IConfig = {
   // 是否启用调试模式 (默认值：false)
   debug?: boolean
   // 上报服务器的请求URL
-  errorUrl?: string
+  errorUrl: string
   // 上报数据实现形式  (默认值：post)
   errorMethod?: string
   // 前端框架router实例
@@ -143,7 +143,7 @@ type IEventConfig = {
   // 用户id
   uid?: () => string
   // 上报服务器的请求URL
-  eventUrl?: string
+  eventUrl: string
   // 是否启用调试模式 (默认值：false)
   debug?: boolean
   // 上报数据实现形式  (默认值：post)
@@ -202,12 +202,12 @@ export default class HelloWorld extends Vue {
 constructor(token: string, config?: IErrorConfig) {}
 
 type IEventConfig = {
+  // 上报服务器的请求URL
+  errorUrl: string
   // 用户clientId
   uid?: () => string
   // 是否启用调试模式 (默认值：false)
   debug?: boolean
-  // 上报服务器的请求URL (默认值：大数据提供的接口地址)
-  errorUrl?: string
   // 上报数据实现形式  (默认值：post)
   errorMethod?: string
   // 前端框架router实例
