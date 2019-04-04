@@ -1,0 +1,32 @@
+{
+  "name": "@monitor/collector-error",
+  "version": "0.18.0",
+  "description": "前端监控引擎-错误采集模块",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ckdlbc/monitor",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ckdlbc/monitor.git"
+  },
+  "author": "Arvinsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckdlbc/monitor/issues"
+  },
+  "dependencies": {
+    "@monitor/collector-brower": "^0.18.0",
+    "axios": "^0.18.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

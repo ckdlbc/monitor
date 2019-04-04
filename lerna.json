@@ -1,0 +1,20 @@
+{
+  "lerna": "3.8.4",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "0.18.0",
+  "changelog": {
+    "repo": "power/monitor",
+    "labels": {
+      "tag: feature": ":feat: New Feature",
+      "tag: breaking change": ":break: Breaking Change",
+      "tag: bugfix": ":fix: Bug Fix"
+    },
+    "cacheDir": ".changelog"
+  },
+  "command": {
+    "publish": {
+      "message": "chore(release): publish %v"
+    }
+  }
+}

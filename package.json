@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "boot": "lerna bootstrap",
+    "watch": "lerna run watch --parallel",
+    "build": "lerna run build",
+    "commit": "lerna publish  --conventional-commits --no-verify-access --force-publish",
+    "pub": "lerna publish --no-verify-access"
+  },
+  "homepage": "https://github.com/ckdlbc/monitor",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ckdlbc/monitor.git"
+  },
+  "author": "Arvinsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckdlbc/monitor/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "lerna": "^3.8.4",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "tslint-config-prettier": "^1.17.0",
+    "tslib": "^1.9.3",
+    "@stark/utils": "^0.1.1",
+    "@stark/console": "^0.1.1",
+    "@stark/eventEmitter": "^0.1.1",
+    "@stark/storage": "^0.1.1"
+  }
+}

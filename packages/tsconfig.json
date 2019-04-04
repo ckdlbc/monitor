@@ -1,0 +1,16 @@
+/*
+ * @Author: suliyu
+ * @Date: 2019-01-04 16:22:52
+ * @Last Modified by:   suliyu
+ * @Last Modified time: 2019-01-04 16:22:52
+ */
+
+{
+  "files": [],
+  "references": [
+    { "path": "collector-brower" },
+    { "path": "collector-error" },
+    { "path": "collector-track" },
+    { "path": "engine" }
+  ]
+}

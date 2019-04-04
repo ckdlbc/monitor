@@ -1,0 +1,29 @@
+/*
+ * @Author: suliyu
+ * @Date: 2019-01-04 19:30:38
+ * @Last Modified by: suliyu
+ * @Last Modified time: 2019-01-04 19:34:14
+ */
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "lib"]
+}

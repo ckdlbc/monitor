@@ -1,0 +1,28 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "no-empty": false,
+    "one-variable-per-declaration": false,
+    "variable-name": false,
+    "no-conditional-assignment": false,
+    "ter-indent": false,
+    "triple-equals": false,
+
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
+    "no-shadowed-variable": false,
+    "prefer-for-of": false,
+
+    "semicolon": false,
+    "no-bitwise": false,
+    "no-console": false,
+    "no-this-assignment": false,
+    "no-unused-variable": false,
+    "no-arg": false,
+    "no-var-requires": false,
+    "interface-name": false,
+    "ban-comma-operator": false
+  }
+}
